@@ -76,6 +76,23 @@ body {
         overflow: hidden;
     }
 
+    .logo-com {
+        list-style-type: none;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 100px;
+        box-shadow: 
+        inset 0px 11px 8px -10px #CCC,
+        inset 0px -11px 8px -10px #CCC; 
+        padding: 15px;
+
+    }
+
+    .logo-com:hover {
+        zoom: 120%;
+            }
+
 .nine-camera {
     margin: 70px;
     display: block;    
@@ -83,6 +100,7 @@ body {
 .section-title {
     text-align: center;
     margin-top: 50px;
+    color:rgb(66, 3, 66);
 }
 
 .cameras {
@@ -204,7 +222,13 @@ footer ul {
                 flex-direction: column;
                 align-items: center;
 
-        }            
+        } 
+        
+        .logo-com {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+        }
 
         .cameras {
             display: flex;
@@ -234,6 +258,12 @@ footer ul {
         header.contain {
             
             margin: 100px;
+        }
+
+        .logo-com {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
         }
 
         .start-journey {
